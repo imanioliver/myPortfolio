@@ -22,7 +22,7 @@ ReactDOM.render(
             <Switch>
                 <Route path="/home" component={Home} />
                 <Route path="/about" component={About}/>
-                <Route path="/portfolio" component={Portfolio}/>
+                <Route path="/cv" component={Portfolio}/>
                 <Route path="/" component={Enter}/>
             </Switch>
         </BaseLayout>
