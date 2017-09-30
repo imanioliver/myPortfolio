@@ -2,31 +2,22 @@
   text-align: center;
 }
 
-/*
-nav{
-  padding-top: 40px;
-  display: inline;
-}*/
 
-.myName{
-    font-family: Arizonia;
-    font-size: 100%;
-    color: white;
-    text-shadow: 2px 2px black;
+theNav {
+    overflow: hidden;
+    background-color: rgba(23, 18, 25, .5);
+
 }
 
-.colorDiv {
-    background-color: rgba(23, 18, 25, .0);
-    height: 75vh;
-    width: 75vw;
-    margin:auto;
-    border-radius: 15px;
-}
-/*
-a {
-    text-decoration: none;
+body {
+    font-family: 'Advent Pro', sans-serif;
 }
 
-a :hover {
-    text-decoration: none;
-}*/
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin-bottom:0;
+    background-color: #B3D2B2;
+    /*z-index: -5;*/
+}

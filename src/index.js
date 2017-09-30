@@ -10,7 +10,6 @@ import About from './components/About';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import BaseLayout from './components/Layout';
-import Enter from './components/Enter'
 
 
 
@@ -20,10 +19,8 @@ ReactDOM.render(
 
         <BaseLayout>
             <Switch>
-                <Route path="/home" component={Home} />
-                <Route path="/about" component={About}/>
+                <Route exact path="/" component={Home} />
                 <Route path="/cv" component={Portfolio}/>
-                <Route path="/" component={Enter}/>
             </Switch>
         </BaseLayout>
     </BrowserRouter>
