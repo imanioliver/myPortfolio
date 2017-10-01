@@ -18,6 +18,153 @@ nav {
     position: sticky;
     top: 0px;
     margin-bottom:0;
-    background-color: #B3D2B2;
-    /*z-index: -5;*/
+    height: 100px;
+    background-color: #f4cd3f;
+    /*background: url(https://papercut-interactive-la6eupaln2c.netdna-ssl.com/img/canvas-yellow.jpg) center center repeat;*/
+    z-index: 5;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover {
+    color: white;
+
+}
+
+.lemonsBackground{
+    background-image: url(lemons-copy.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin-left: 30%;
+    margin-right:-5000px;
+    z-index: -1;
+    display: flex;
+    /*overflow: hidden;*/
+
+}
+
+.cyan-box {
+    /*background: url(https://papercut-interactive-la6eupaln2c.netdna-ssl.com/img/cyan-bkg-90deg.jpg) center center repeat;*/
+    background-color: #f7c59f;
+    height: 1024px;
+    width: 800px;
+    -moz-transform: rotate(105deg);
+    -ms-transform: rotate(105deg);
+    -webkit-transform: rotate(105deg);
+    transform: rotate(105deg);
+    outline: 1px solid transparent;
+    margin-top: -840px;
+    margin-left: -1021px;
+    transition: all 0.5s linear 0s;
+    -moz-transition: all 0.5s linear 0s;
+    -ms-transition: all 0.5s linear 0s;
+    -o-transition: all 0.5s linear 0s;
+    -webkit-transition: all 0.5s linear 0s;
+    z-index: -5;
+    overflow: hidden;
+}
+
+.yellow-box {
+    /*background: url(https://papercut-interactive-la6eupaln2c.netdna-ssl.com/img/canvas-yellow.jpg) center center repeat;*/
+    background-color: #f4cd3f;
+    height: 586px;
+    width: 978px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    /* transform: rotate(-85deg); */
+    outline: 1px solid transparent;
+    margin-left: -724px;
+    /* transition: all 0.5s linear 0s; */
+    -moz-transition: all 0.5s linear 0s;
+    -ms-transition: all 0.5s linear 0s;
+    -o-transition: all 0.5s linear 0s;
+    -webkit-transition: all 0.5s linear 0s;
+    z-index: -5;
+    overflow: hidden;
+
+}
+
+
+
+aside.aboutTop{
+    z-index: 4;
+    background-color: #F0F2EA;
+    position: relative ;
+    height: 200px;
+    width: 100%;
+    /*top:0;*/
+}
+
+#aboutMe{
+    width: 100%;
+    z-index: 5;
+    background-color: #f3ffb6;
+    /*positioxn: sticky;*/
+    padding: 20%;
+    position: relative ;
+
+}
+
+#myProjects{
+    width: 100%;
+    z-index: 5;
+    background-color: #f0f2ea;
+    /*position: sticky;*/
+    padding: 10%;
+    position: relative ;
+
+
+}
+
+#FAQdiv {
+    width: 100%;
+    z-index: 5;
+    background-color: #f7c59f;
+    /*position: sticky;*/
+    padding: 20%;
+    position: relative ;
+
+
+}
+
+
+/*Portfolio Styles*/
+
+table {
+    /*margin: 2%;*/
+    border: solid;
+    border-width: thin;
+    border-color: #f7c59f;
+    width: 100%;
+}
+
+.wideLeft {
+    width:60%;
+    height: 2000px;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+
+.skinnyRight{
+    width: 20%;
+    height: 2000px;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+td {
+    vertical-align: text-top;
 }

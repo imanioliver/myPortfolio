@@ -39,7 +39,6 @@ export default class NavBar extends Component {
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/cv">CV and Contacts</NavLink>
                         </li>
-
                     </ul>
                 </nav>
 
