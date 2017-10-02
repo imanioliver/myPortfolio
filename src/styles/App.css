@@ -22,6 +22,7 @@ nav {
     background-color: #f4cd3f;
     /*background: url(https://papercut-interactive-la6eupaln2c.netdna-ssl.com/img/canvas-yellow.jpg) center center repeat;*/
     z-index: 5;
+    font-size: 2em;
 }
 
 a {
@@ -120,7 +121,7 @@ transition: all 0.5s linear 0s;
     background-size: contain;
     background-repeat: no-repeat;
     padding-left: 30%;
-    padding-right: 30%;
+    /*padding-right: 30%;*/
 }
 
 aside.aboutTop{
