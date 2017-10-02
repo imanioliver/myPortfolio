@@ -75,52 +75,92 @@ a:hover {
 
 .yellow-box {
     /*background: url(https://papercut-interactive-la6eupaln2c.netdna-ssl.com/img/canvas-yellow.jpg) center center repeat;*/
-    background-color: #f4cd3f;
+    /*background-color: #f4cd3f;
     height: 586px;
     width: 978px;
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-    /* transform: rotate(-85deg); */
+     transform: rotate(-85deg);
     outline: 1px solid transparent;
     margin-left: -724px;
-    /* transition: all 0.5s linear 0s; */
+     transition: all 0.5s linear 0s;
     -moz-transition: all 0.5s linear 0s;
     -ms-transition: all 0.5s linear 0s;
     -o-transition: all 0.5s linear 0s;
     -webkit-transition: all 0.5s linear 0s;
     z-index: -5;
-    overflow: hidden;
+    overflow: hidden;*/
+
+    background-color: #f4cd3f;
+
+
+    /*background: url(https://papercut-interactive-la6eupaln2c.netdna-ssl.com/img/canvas-yellow.jpg) center center repeat;*/
+height: 552px;
+width: 1024px;
+-moz-transform: rotate(-85deg);
+-ms-transform: rotate(-85deg);
+-webkit-transform: rotate(-85deg);
+transform: rotate(-85deg);
+outline: 1px solid transparent;
+margin-left: -724px;
+transition: all 0.5s linear 0s;
+-moz-transition: all 0.5s linear 0s;
+-ms-transition: all 0.5s linear 0s;
+-o-transition: all 0.5s linear 0s;
+-webkit-transition: all 0.5s linear 0s;
 
 }
 
-
+.imaniImage {
+    background-image: url(snippedImani.png);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 30%;
+    padding-right: 30%;
+}
 
 aside.aboutTop{
     z-index: 4;
     background-color: #F0F2EA;
     position: relative ;
-    height: 200px;
+    height: 500px;
     width: 100%;
     /*top:0;*/
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 #aboutMe{
     width: 100%;
-    z-index: 5;
+    z-index: 4;
     background-color: #f3ffb6;
     /*positioxn: sticky;*/
-    padding: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
     position: relative ;
 
 }
 
 #myProjects{
     width: 100%;
-    z-index: 5;
+    z-index: 4;
     background-color: #f0f2ea;
     /*position: sticky;*/
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
     position: relative ;
 
 
@@ -128,13 +168,25 @@ aside.aboutTop{
 
 #FAQdiv {
     width: 100%;
-    z-index: 5;
+    z-index: 4;
     background-color: #f7c59f;
     /*position: sticky;*/
-    padding: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
     position: relative ;
 
 
+}
+
+
+.gifPlaceholder {
+    background-image: url(lemonade_gif.gif);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-left: 30%;
 }
 
 

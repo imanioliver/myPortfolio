@@ -42,6 +42,8 @@ export default class Home extends Component {
             <section id="home">
             <NavBar/>
             <div className="portfolioTop">
+                <div className="ImaniOliver">
+
                 <div className="lemonsBackground">
                     <div className="home-intro ">
                         <div className="h-intro-box-outer">
@@ -54,9 +56,12 @@ export default class Home extends Component {
 
                     </div>
                 </div>
+                <h1>Imani Oliver</h1>
+                </div>
             </div>
 
             <aside className="aboutTop section-flush h-web-design canvas">
+                <div className="imaniImage"></div>
                 <h4>I'm a full stack developer based in Atlanta, Georgia. I have a passion for web development and track and field. I love to create in Javascript and build APIs using Node. </h4>
             </aside>
             <About/>
